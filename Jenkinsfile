@@ -38,7 +38,7 @@ pipeline{
         
         stage('Docker Deploy'){
             steps{
-              ansiblePlaybook credentialsId: 'apache-server', disableHostKeyChecking: true, installation: 'ansible2', inventory: 'dev.inv', playbook: 'deploy.docker.yml'
+              ansiblePlaybook credentialsId: 'apache-server', disableHostKeyChecking: true, installation: 'ansible2', inventory: 'dev.inv', playbook: 'deploy-docker.yml'
             }
         }
     }
