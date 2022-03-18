@@ -5,16 +5,16 @@
   <center>
       <marquee height="200pt" width="500" scrollamount="4" direction"=right" behavior="scroll"><h1>This is rangde song</h1></marquee>
 <audio controls>
-     <source src="https://github.com/manikumar9999/ansible2/blob/main/naakanulu.mp3?raw=true" type="audio/mpeg"></audio></center>
+     <source src="https://github.com/manikumar9999/dockeransiblejenkins/blob/master/kalavathi.mp3?raw=true"></audio></center>
     <br>
     <center>
       <marquee height="200pt" width="500" scrollamount="4" direction"=right" behavior="scroll"><h1>This is Kalaavathi song</h1></marquee>
 <audio controls>
-     <source src="https://github.com/manikumar9999/ansible2/blob/main/kalavathi.mp3?raw=true3" type="audio/mpeg"></audio></center>
+     <source src="https://github.com/manikumar9999/dockeransiblejenkins/blob/main/rangde.mp3?raw=true3" type="audio/mpeg"></audio></center>
     <br>
     <center>
        <marquee height="200pt" width="500" scrollamount="4" direction"=right" behavior="scroll"><h1>This is Raghavendra swamy song song</h1></marquee>
     <audio controls>
-   <source src="https://github.com/manikumar9999/ansible2/blob/main/raghavendra.mp3?raw=true" type="audio/mpeg"></audio></center>
+   <source src="https://github.com/manikumar9999/dockeransiblejenkins/blob/main/raghavendra.mp3?raw=true" type="audio/mpeg"></audio></center>
       <br>
   </body></html>
