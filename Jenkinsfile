@@ -1,7 +1,7 @@
 pipeline{
     agent any
     tools {
-      maven 'maven3'
+      maven 'maven-3.8.4'
     }
     environment {
       DOCKER_TAG = getVersion()
@@ -16,23 +16,23 @@ pipeline{
         
         stage('Maven Build'){
             steps{
-                sh "mvn clean package"
+                sh "mvn clean install package"
             }
         }
         
         stage('Docker Build'){
             steps{
-                sh "docker build . -t kammana/hariapp:${DOCKER_TAG} "
+                sh "docker build . -t manikumar99/maniapp:${DOCKER_TAG} "
             }
         }
         
         stage('DockerHub Push'){
             steps{
                 withCredentials([string(credentialsId: 'docker-hub', variable: 'dockerHubPwd')]) {
-                    sh "docker login -u kammana -p ${dockerHubPwd}"
+                    sh "docker login -u manikumar99 -p ${dockerHubPwd}"
                 }
                 
-                sh "docker push kammana/hariapp:${DOCKER_TAG} "
+                sh "docker push manikumar99/maniapp:${DOCKER_TAG} "
             }
         }
         
