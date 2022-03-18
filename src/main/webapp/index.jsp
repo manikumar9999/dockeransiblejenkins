@@ -1,5 +1,20 @@
 <html>
-<body>
-<h2 stype="colour: red">Deployed using Jenkins, Ansible!! -2</h2>
-</body>
-</html>
+  <head><title><h1>This is Manikumar Suragam</h1></title></head>
+  <body bgcolor="#000080">
+    <marquee height="200pt" width="200pt" direction="left" scrollamount="3"><h1> This is Manikumar Suragam And Suragam Rajesh </h1></marquee>
+  <center>
+      <marquee height="200pt" width="500" scrollamount="4" direction"=right" behavior="scroll"><h1>This is rangde song</h1></marquee>
+<audio controls>
+     <source src="https://github.com/manikumar9999/ansible2/blob/main/naakanulu.mp3?raw=true" type="audio/mpeg"></audio></center>
+    <br>
+    <center>
+      <marquee height="200pt" width="500" scrollamount="4" direction"=right" behavior="scroll"><h1>This is Kalaavathi song</h1></marquee>
+<audio controls>
+     <source src="https://github.com/manikumar9999/ansible2/blob/main/kalavathi.mp3?raw=true3" type="audio/mpeg"></audio></center>
+    <br>
+    <center>
+       <marquee height="200pt" width="500" scrollamount="4" direction"=right" behavior="scroll"><h1>This is Raghavendra swamy song song</h1></marquee>
+    <audio controls>
+   <source src="https://github.com/manikumar9999/ansible2/blob/main/raghavendra.mp3?raw=true" type="audio/mpeg"></audio></center>
+      <br>
+  </body></html>
